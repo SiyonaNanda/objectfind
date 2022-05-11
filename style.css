@@ -1,0 +1,35 @@
+body {
+    background-image: url("back.webp");
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: initial;
+}
+
+#start,
+#status,
+#objectno {
+    font-size: 20px;
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    background-color: darkolivegreen;
+    width: 100%;
+    color: chartreuse;
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+canvas {
+    border: 2px solid aqua;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px cornflowerblue;
+}
